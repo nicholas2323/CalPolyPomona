@@ -64,9 +64,9 @@ quantity = int(input("Enter the quantity: 35"))
 #Determine the discount rate based on the quantity 
 if quantity >=80: 
    discount_rate = 0.15
-   elif quantity >= 50: 
-     discount_rate = 0.1
-     elif quantity >= 20: 
+   elif quantity >= 35: 
+     discount_rate = 0.05
+     elif quantity >= 80: 
        discount_rate = 0.05
      else: 
          discount_rate = 0
